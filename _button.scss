@@ -1,0 +1,19 @@
+.button {
+  width:10em;
+	height:3em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color:#34495E;
+	font-family: 'OpenSansRegular', sans-serif;
+	font-size: 1em;
+	line-height: 3em;
+	text-align: center;
+	margin-top: 10px;
+	color: #ecf0f1;
+	display: block;
+	margin: 0 auto;
+}
+
+.button:hover {background-color: lighten(#34495E, 20);}
+
