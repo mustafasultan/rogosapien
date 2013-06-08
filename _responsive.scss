@@ -1,0 +1,29 @@
+/* Title */
+@media only screen and (max-width: 600px) {#one h1{ font-size: 8em;}}
+@media only screen and (max-width: 450px) {#one h1{ font-size: 6em;}}
+@media only screen and (max-width: 800px) {#one { height:20em; line-height: 20em;}}
+/* This makes the app title shrink */
+
+
+
+/* This hides the app screenshot on smaller screens */
+@media only screen and (max-width: 650px) {
+
+  .left {width: 100%;
+	padding-left: 4%;
+	padding-right: 4%;
+	display: block;
+	clear: both;
+	float: none;
+	margin-top: 0;
+	margin: 0 auto;
+	margin-bottom: 0;
+	padding-top: 5%;
+	}
+
+	#two p {margin-bottom: 2%;}
+
+	.right {display:none;  }
+
+
+	}
