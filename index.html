@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="main.css" rel="stylesheet" type="text/css">
+
+    <title>ROGOSAPIEN</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <meta content="width=device-width, minimumscale= 1.0, maximum-scale=1.0"
+    name="viewport">
+</head>
+
+<body>
+    <div id="top">
+        <div id="one">
+            <h1>ROGOSAPIEN</h1>
+        </div>
+
+        <div id="two">
+            <div class="left">
+                <h2>The app for writers</h2>
+
+                <p>This is a website I created for a fictional Mac application.
+                Hit the download app button below to find out more.</p><a href=
+                "#six">
+                <div class="button">
+                    DOWNLOAD APP
+                </div></a>
+            </div>
+
+            <div class="right">
+                <a href="#six"><img class="mac" src="images/mac.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="three">
+            <div class="left2"><img class="icloud" src=
+            "images/icloud.png"></div>
+
+            <div class="right2">
+                <h2>iCloud Support</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nulla et nibh mi. In et neque turpis. Fusce sit amet nisi id
+                nunc ultrices volutpat. Phasellus nulla est, tristique congue
+                arcu a, dignissim pellentesque odio. Donec a nibh convallis,
+                suscipit mauris sit amet, lobortis leo. Vestibulum quis eros in
+                tellus molestie rutrum id ac urna.</p>
+            </div>
+
+            <div id="four">
+                <div class="left2"><img class="time" src=
+                "images/time.png"></div>
+
+                <div class="right2">
+                    <h2>Lightning Fast</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla et nibh mi. In et neque turpis. Fusce sit amet nisi
+                    id nunc ultrices volutpat. Phasellus nulla est, tristique
+                    congue arcu a, dignissim pellentesque odio. Donec a nibh
+                    convallis, suscipit mauris sit amet, lobortis leo.
+                    Phasellus nulla est, tristique congue arcu a, dignissim
+                    pellentesque odio. Donec a nibh convallis, suscipit mauris
+                    sit amet, lobortis leo. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Phasellus nulla est, tristique
+                    congue arcu a, dignissim pellentesque odio. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div id="five">
+                    <div class="left2"><img class="social" src=
+                    "images/social.png"></div>
+
+                    <div class="right2">
+                        <h2>Social media integration</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Nulla et nibh mi. In et neque turpis. Fusce sit
+                        amet nisi id nunc ultrices volutpat. Phasellus nulla
+                        est, tristique congue arcu a, dignissim pellentesque
+                        odio. Donec a nibh convallis, suscipit mauris sit amet,
+                        lobortis leo. Phasellus nulla est, tristique congue
+                        arcu a, dignissim pellentesque odio. Donec a nibh
+                        convallis, suscipit mauris sit amet, lobortis leo.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Phasellus nulla est, tristique congue arcu a,
+                        dignissim pellentesque odio. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <div id="six">
+                    <h3>The Process</h3>
+
+                    <p>Whilst searching for jQuery scripts, I came across
+                    Hook.js and fell in love with its website. I tried to
+                    recreate the flat, simplistic style, and employ the same
+                    subtle negative margin on the screenshot. I added my own
+                    playfulness to the website by using CSS3
+                    transformations.</p><img alt="Hook.js screenshot" class=
+                    "screenshot" src="images/hook.jpg">
+
+                    <p>Another objective I had whilst creating this site was to
+                    use SASS for the first time. Using Coda to write the HTML
+                    and CSS, and using Codekit to compile the .scss files into
+                    the main.css file made organisation of my CSS a breeze. You
+                    can view the original .scss files here.</p>
+                </div>
+            </div><script>
+              $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+            }
+            }
+            });
+            </script>
+        </div>
+    </div>
+</body>
+</html>
